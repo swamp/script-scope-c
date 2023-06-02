@@ -116,10 +116,7 @@ SwampUnmanagedMemory* swampScriptScopeNextUnmanagedMemory(const SwampScriptScope
     return (SwampUnmanagedMemory*) &self->unmanagedMemory[!self->activeRandomAccessMemorySlot];
 }
 
-const SwampFunc* swampScriptScopeFindFunction(const SwampScriptScope* self, const char* functionName)
-{
-    return swampScriptStaticFindFunction(self->staticCode, functionName);
-}
+
 
 void swampScriptScopeInit(SwampScriptScope* self, const SwampScriptStatic* scriptStatic, void* userData,
                           size_t ramMemorySize, ImprintAllocator* allocator)

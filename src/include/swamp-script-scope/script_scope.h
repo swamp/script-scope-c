@@ -48,7 +48,5 @@ int swampScriptScopeClone(SwampScriptScope* target, const SwampScriptScope* sour
 SwampDynamicMemory* swampScriptScopeUsedRandomAccessMemory(const SwampScriptScope* self);
 SwampUnmanagedMemory* swampScriptScopeUsedUnmanagedMemory(const SwampScriptScope* self);
 SwampUnmanagedMemory* swampScriptScopeNextUnmanagedMemory(const SwampScriptScope* self);
-const char** swampScriptScopeResourceNames(const SwampScriptScope* self, int* maxCount);
-const SwampFunc* swampScriptScopeFindFunction(const SwampScriptScope* self, const char* functionName);
 
 #endif
