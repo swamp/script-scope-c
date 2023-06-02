@@ -1,0 +1,12 @@
+depsversion = "0.0.0"
+
+name = "swamp/script-scope-c"
+version = "0.0.0"
+
+[[dependencies]]
+name = 'swamp/runtime-c'
+version = "*"
+
+[[dependencies]]
+name = 'swamp/state-c'
+version = "*"

@@ -1,0 +1,10 @@
+Makefile
+CMakeFiles/
+.vscode/
+deps.*/
+CMakeCache.txt
+*.cmake
+deps/
+*.a
+.idea/
+cmake-build*/
